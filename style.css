@@ -1,8 +1,19 @@
 #navbar {
-    background-color: #BBBBBB;
+    background-color: green;
+    opacity: 0.5;
     border: 3px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+}
+
+.title {
+    text-align: center;
+    color: #C54245;
+}
+
+
+h1 {
+  text-align: center;
 }
