@@ -32,6 +32,13 @@ body, html {
     font-size: 90px;
 }
 
-#start {
-  z-index:+3;
+button {
+  background-color: pink;
+  margin: 10px;
+  font-family: 'Mountains of Christmas', cursive;
+  border: none;
+}
+
+button:hover {
+  background-color: white;
 }
