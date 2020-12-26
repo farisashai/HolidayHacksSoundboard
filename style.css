@@ -75,3 +75,11 @@ div.sound {
 div.title {
     color: black;
 }
+
+.download {
+  transition: all .2s ease-in-out; 
+}
+.download:hover{
+  transform: scale(1.1); 
+
+}
