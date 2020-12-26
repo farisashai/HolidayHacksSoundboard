@@ -8,12 +8,57 @@
     margin-bottom: 25px;
 }
 
-.title {
-    text-align: center;
-    color: #C54245;
+body {
+    margin:0;
+    background-color: coral;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-h1 {
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('snowyChristmasFont.otf');
+  }
+  
+  body {
+    font-family: 'MyWebFont';
+    font-size: 35px;
+  }
+
+div.title {
+    font-size: 50px;
+}
+
+div.sound {
+    font-size: 75px;
+    position: relative;
 }
