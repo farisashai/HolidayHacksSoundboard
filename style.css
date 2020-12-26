@@ -28,7 +28,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #34A65F;
   position: fixed;
   top: 0;
   width: 100%;
@@ -47,7 +47,9 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #2C9958
+
+  ;
 }
 
 .active {
@@ -72,4 +74,12 @@ div.sound {
 
 div.title {
     color: black;
+}
+
+.download {
+  transition: all .2s ease-in-out; 
+}
+.download:hover{
+  transform: scale(1.1); 
+
 }
