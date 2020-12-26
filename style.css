@@ -1,11 +1,8 @@
 #navbar {
-    background-color:rgb(59, 59, 59);
-    opacity: 0.5;
-    border: 3px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 
 /*snow*/
@@ -30,7 +27,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #34A65F;
+  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,9 +46,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #2C9958
-
-  ;
+  background-color: #111;
 }
 
 .active {
