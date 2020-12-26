@@ -6,3 +6,12 @@
     align-items: center;
     margin-bottom: 25px;
 }
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('snowyChristmasFont.otf');
+  }
+  
+  body {
+    font-family: 'MyWebFont';
+  }
