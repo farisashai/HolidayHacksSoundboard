@@ -9,7 +9,7 @@ body, html {
     font-size: 30px;
     text-transform: uppercase;
     color: #FFF;
-    
+
   }
 #title {
     background-color: #F5624D;
@@ -22,4 +22,22 @@ body, html {
     height: 100%;
     color: white;
     display: block;
+}
+
+.nav-buttons {
+  text-align: center;
+}
+
+body {
+  background-color: #86C5DA;
+}
+
+#soundboard {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
 }
