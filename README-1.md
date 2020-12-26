@@ -1,3 +1,0 @@
-# HolidayHacks Holiday Soundboard Project
-# 
- 
