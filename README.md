@@ -6,5 +6,3 @@ Faris Ashai
 James Ma
 
 Grant Duntugan
-
-Riley Dyer
