@@ -1,3 +1,22 @@
+@keyframes move {
+  0% {
+    transform: translatex(-1400px);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translatex(1400px);
+  }
+}
+
+
+.present {
+  margin: 15px;
+  animation: move 7s ease-in infinite;
+}
+
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -56,7 +75,7 @@ li a:hover:not(.active) {
     font-family: 'MyWebFont';
     src: url('snowyChristmasFont.otf');
   }
-  
+
   body {
     font-family: 'MyWebFont';
     font-size: 35px;
@@ -84,4 +103,3 @@ td {
   text-align: center;
 }
 /* end sound adjustment*/
-
