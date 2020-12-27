@@ -2,9 +2,6 @@
   0% {
     transform: translatex(-1400px);
   }
-  50%{
-    transform: translateY(20px);
-  }
   100% {
     transform: translatex(1400px);
   }
