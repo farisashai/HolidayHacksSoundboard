@@ -85,3 +85,13 @@ td {
 }
 /* end sound adjustment*/
 
+.footer {
+  height: auto;
+  background-color: #235E6F;
+  margin: 0;
+  top: 50px;
+}
+#footertext {
+  color: white;
+  text-align: center;
+}
